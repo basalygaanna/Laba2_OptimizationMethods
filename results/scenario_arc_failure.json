@@ -1,0 +1,36 @@
+{
+  "closed_arc": [
+    "База 2",
+    "Точка ЧС 5"
+  ],
+  "original_flow_teams": 4.0,
+  "status": "optimal — найдено оптимальное решение",
+  "objective_team_minutes": 776.0,
+  "change_in_objective": 65.0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "validation": {
+    "valid": true,
+    "checks": {
+      "nonnegative": true,
+      "base_supply": true,
+      "incident_demand": true,
+      "arc_capacity": true
+    },
+    "base_used": [
+      5.0,
+      3.0,
+      5.0,
+      2.0,
+      5.0
+    ],
+    "point_received": [
+      4.0,
+      2.0,
+      3.0,
+      4.0,
+      4.0,
+      3.0
+    ],
+    "objective_team_minutes": 776.0
+  }
+}

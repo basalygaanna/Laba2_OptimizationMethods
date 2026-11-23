@@ -1,0 +1,36 @@
+{
+  "variant": 18,
+  "N": 1,
+  "Q": 2,
+  "Y": 26,
+  "seed": 10201,
+  "description": "Переброска аварийных бригад после ЧС: минимизация суммарного времени развёртывания.",
+  "bases": [
+    "База 1",
+    "База 2",
+    "База 3",
+    "База 4",
+    "База 5"
+  ],
+  "incident_points": [
+    "Точка ЧС 1",
+    "Точка ЧС 2",
+    "Точка ЧС 3",
+    "Точка ЧС 4",
+    "Точка ЧС 5",
+    "Точка ЧС 6"
+  ],
+  "generation": {
+    "method": "numpy.random.default_rng(seed)",
+    "travel_time_minutes": "integer uniform in [20, 91)",
+    "base_supply_teams": "integer uniform in [4, 8)",
+    "incident_demand_teams": "integer uniform in [2, 5)",
+    "arc_capacity_teams": "integer uniform in [1, 5)"
+  },
+  "units": {
+    "travel_time": "minutes per team",
+    "supply": "teams",
+    "demand": "teams",
+    "arc_capacity": "teams"
+  }
+}

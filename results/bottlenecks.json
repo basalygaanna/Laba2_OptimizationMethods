@@ -1,0 +1,26 @@
+[
+  {
+    "base": "База 1",
+    "incident_point": "Точка ЧС 1",
+    "flow_teams": 2.0,
+    "capacity_teams": 2.0
+  },
+  {
+    "base": "База 1",
+    "incident_point": "Точка ЧС 3",
+    "flow_teams": 1.0,
+    "capacity_teams": 1.0
+  },
+  {
+    "base": "База 2",
+    "incident_point": "Точка ЧС 5",
+    "flow_teams": 4.0,
+    "capacity_teams": 4.0
+  },
+  {
+    "base": "База 5",
+    "incident_point": "Точка ЧС 4",
+    "flow_teams": 3.0,
+    "capacity_teams": 3.0
+  }
+]

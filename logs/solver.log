@@ -1,0 +1,7 @@
+ЛР №2, вариант 18 — базовый сценарий
+Статус HiGHS: optimal — найдено оптимальное решение
+Сообщение: Optimization terminated successfully. (HiGHS Status 7: Optimal)
+Целевая функция: 711.0
+Алгоритм: dual simplex (HiGHS-DS)
+Presolve: включён
+Итерации: 9

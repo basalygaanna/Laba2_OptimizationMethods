@@ -1,0 +1,40 @@
+{
+  "demand_multiplier": 1.2,
+  "new_demand_teams": [
+    4.8,
+    2.4,
+    3.5999999999999996,
+    4.8,
+    4.8,
+    3.5999999999999996
+  ],
+  "status": "optimal — найдено оптимальное решение",
+  "objective_team_minutes": 915.3999999999999,
+  "change_in_objective": 204.39999999999986,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "validation": {
+    "valid": true,
+    "checks": {
+      "nonnegative": true,
+      "base_supply": true,
+      "incident_demand": true,
+      "arc_capacity": true
+    },
+    "base_used": [
+      4.999999999999999,
+      4.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "point_received": [
+      4.8,
+      2.4,
+      3.5999999999999996,
+      4.8,
+      4.8,
+      3.5999999999999996
+    ],
+    "objective_team_minutes": 915.3999999999999
+  }
+}
